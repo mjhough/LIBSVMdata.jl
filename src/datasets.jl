@@ -330,25 +330,25 @@ DATASETS = OrderedDict(
         :ncls => 2,
     ),
     "ijcnn" => Dict(
-        :file => "ijcnn.bz2",
+        :file => "ijcnn1.bz2",
         :type => "binary",
         :dims => (49_990, 22),
         :ncls => 2,
     ),
     "ijcnn.t" => Dict(
-        :file => "ijcnn.t.bz2",
+        :file => "ijcnn1.t.bz2",
         :type => "binary",
         :dims => (91_701, 22),
         :ncls => 2,
     ),
     "ijcnn.tr" => Dict(
-        :file => "ijcnn.tr.bz2",
+        :file => "ijcnn1.tr.bz2",
         :type => "binary",
         :dims => (35_000, 22),
         :ncls => 2,
     ),
     "ijcnn.val" => Dict(
-        :file => "ijcnn.tr.bz2",
+        :file => "ijcnn1.tr.bz2",
         :type => "binary",
         :dims => (14_990, 22),
         :ncls => 2,
@@ -559,7 +559,7 @@ DATASETS = OrderedDict(
         :ncls => 2,
     ),
     "url_normalized" => Dict(
-        :file => "url_normalized_combined.bz2",
+        :file => "url_combined_normalized.bz2",
         :type => "binary",
         :dims => (2_396_130, 3_231_961),
         :ncls => 2,
